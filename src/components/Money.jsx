@@ -1,3 +1,5 @@
+import moneyplant from "../assets/moneyplant.png"
+
 function Money() {
     return (
       <div className="flex flex-col items-center min-h-screen bg-gray-100">
@@ -44,7 +46,7 @@ function Money() {
   const Illustration = () => {
     return (
       <div className="flex-1 mt-6 md:mt-0 md:ml-10">
-        <img src="src/assets/moneyplant.png" alt="illustration" className="rounded-lg" />
+        <img src={moneyplant} alt="illustration" className="rounded-lg" />
   
       </div>
     );
