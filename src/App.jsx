@@ -6,6 +6,7 @@ import Testimonial from "./components/Testimonial"
 import ProductDesign from "./components/Products"
 import PictureCards from "./components/PictureCards"
 import Connect from "./components/Connect"
+import Money from "./components/Money"
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
         <ProductDesign />
         <PictureCards/>
         <Connect/>
+        <Money/>
         <Testimonial />
         <Footer />
       </main>
