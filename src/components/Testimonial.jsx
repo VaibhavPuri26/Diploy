@@ -1,4 +1,3 @@
-import React from 'react';
 import { testimonialsData } from '../mockData/data';
 import Slider from 'react-slick/lib/slider';
 
@@ -43,7 +42,7 @@ const Testimonial = () => {
     };
 
     return (
-        <div className='py-14 mb-10 bg-gray-50'>
+        <div className='py-24 mb-24 bg-gray-50'>
             <div className="container mx-auto">
 
                 {/* header section */}

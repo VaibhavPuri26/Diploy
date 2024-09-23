@@ -5,7 +5,7 @@ import Footer from "./components/Footer"
 import Testimonial from "./components/Testimonial"
 import ProductDesign from "./components/Products"
 import PictureCards from "./components/PictureCards"
-
+import Connect from "./components/Connect"
 function App() {
 
   return (
@@ -16,6 +16,7 @@ function App() {
         <Card />
         <ProductDesign />
         <PictureCards/>
+        <Connect/>
         <Testimonial />
         <Footer />
       </main>

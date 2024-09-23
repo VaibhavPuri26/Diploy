@@ -3,10 +3,10 @@ import ProductsImage from "../assets/ProductsImage.png";
 
 const ProductDesign = () => {
   return (
-    <div className="bg-white py-16">
+    <div className="bg-white py-16 mb-[220px]"> {/* Added mb-32 for increased bottom margin */}
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-6">
         {/* Left Image Section */}
-        <div className="w-full md:w-1/2 flex justify-center md:justify-start ml-[120px]">  {/* Increased left margin */}
+        <div className="w-full md:w-1/2 flex justify-center md:justify-start ml-[120px]">
           <div className="relative bg-green-500 p-8 rounded-2xl w-[400px] h-[550px]">
             <img
               src={ProductsImage}
@@ -31,7 +31,7 @@ const ProductDesign = () => {
           </div>
         </div>
         {/* Right Text Section */}
-        <motion.div 
+        <motion.div
           className="w-full md:w-1/2 text-left"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
