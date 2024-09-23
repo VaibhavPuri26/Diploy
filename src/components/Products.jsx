@@ -7,7 +7,7 @@ const ProductDesign = () => {
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center md:justify-between gap-6">
         {/* Left Image Section */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-          <div className="relative bg-green-500 p-8 rounded-2xl w-[300px] md:w-[400px] h-[400px] md:h-[550px] ml-10"> {/* Increased margin */}
+          <div className="relative bg-green-500 p-8 rounded-2xl w-[300px] md:w-[400px] h-[400px] md:h-[550px] ml-15"> {/* Increased margin */}
             <img
               src={ProductsImage}
               alt="Product Items"
@@ -17,10 +17,10 @@ const ProductDesign = () => {
             <button className="absolute top-1/4 left-1/4 bg-white rounded-full w-6 h-6 flex items-center justify-center text-green-500 font-bold text-sm shadow-md">
               +
             </button>
-            <button className="absolute top-1/2 left-1/4 bg-white rounded-full w-6 h-6 flex items-center justify-center text-green-500 font-bold text-sm shadow-md">
+            <button className="absolute top-1/2 left-1/4 bg-white rounded-full w-6 h-6 flex items-center justify-center text-green-500 font-bold text-sm shadow-md ">
               +
             </button>
-            <button className="absolute bottom-1/4 right-1/4 bg-white rounded-full w-6 h-6 flex items-center justify-center text-green-500 font-bold text-sm shadow-md">
+            <button className="absolute bottom-1/4 right-1/4 bg-white rounded-full w-6 h-6 flex items-center justify-center text-green-500 font-bold text-sm shadow-md ">
               +
             </button>
             {/* Edit/Preview box */}
