@@ -2,7 +2,7 @@ import moneyplant from "../assets/moneyplant.png"
 
 function Money() {
     return (
-      <div className="flex flex-col items-center min-h-screen bg-gray-100">
+      <div className="flex flex-col items-center min-h-screen bg-gray-100 mb-40">
         <MainContent />
       </div>
     );

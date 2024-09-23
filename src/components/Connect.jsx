@@ -36,7 +36,7 @@ const lines = [
 
     const App = () => {
       return (
-        <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4">
+        <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4 mb-25">
       <div className="text-center mb-8">
         <h1 className="text-2xl md:text-4xl font-bold mb-2">Connect your store</h1>
         <h4 className="text-sm md:text-base text-gray-400">Printify easily integrates with major e-commerce platforms and marketplaces</h4>
@@ -72,7 +72,8 @@ const lines = [
       </div>
 
       {/* Custom Solutions Banner */}
-      <div className="w-full max-w-5xl mt-12 bg-gradient-to-r from-green-50 to-green-500 rounded-3xl overflow-hidden shadow-lg">
+      <div className="w-full max-w-5xl mt-32 mb-40 bg-gradient-to-r from-green-50 to-green-500 rounded-3xl overflow-hidden shadow-lg">
+
         <div className="flex flex-row items-center justify-between p-4 md:p-6">
           <div className="text-green-800">
             <h2 className="text-lg md:text-xl font-semibold">Are you a large business looking for custom solutions?</h2>

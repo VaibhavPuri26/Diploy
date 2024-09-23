@@ -3,7 +3,7 @@ export const testimonialsData = [
     {
         id: 1,
         name: 'Luffy',
-        img: 'src/assests/luffy.png',
+        img: 'src/assests/luffy1.png',
         review: `If this post helped you out, I'd love to hear about it. Likewise, if you have any feedback to improve this post, I'd also love to hear that too.`,
         delay: 0.2,
     },
