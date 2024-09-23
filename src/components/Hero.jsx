@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { slideUp } from '../utility/animation';
-import HeroImage from '../assets/hero1.gif';
+import HeroImage from '../assets/People Thinking.gif';
 
 const Hero = () => {
   return (

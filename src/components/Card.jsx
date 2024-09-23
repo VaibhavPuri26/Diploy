@@ -1,27 +1,24 @@
-import customproducts from '../assets/customproducts.png';
-import sellproducts from '../assets/sellproducts.png';
-import fulfillment from '../assets/fullfillment.png';
+import higherprofits from '../assets/higher-profits.svg';
+import robustscaling from '../assets/robust-scaling.svg';
+import bestselection from '../assets/best-selection.svg';
 import { motion } from 'framer-motion';
 
 const PictureCard = () => {
   const features = [
     {
-      image: customproducts,
-      title: "CREATE",
-      subtitle: "custom products",
-      description: "Easily add your designs to a wide range of products using our free tools"
+      image: higherprofits,
+      title: "Higher Profits",
+      description: "We offer some of the lowest prices in the industry because print providers continuously compete to win your business."
     },
     {
-      image: sellproducts,
-      title: "SELL",
-      subtitle: "on your terms",
-      description: "You choose the products, sale price, and where to sell"
+      image: robustscaling,
+      title: "Robust Scaling",
+      description: "Easily handle peak holiday seasons, with our wide network of partners and automatic routing functionality."
     },
     {
-      image: fulfillment,
-      title: "WE HANDLE",
-      subtitle: "fulfillment",
-      description: "Once an order is placed, we automatically handle all the printing and delivery logistics"
+      image: bestselection,
+      title: "Best Selection",
+      description: "With 900+ products and top quality brands, you can choose the best products for your business"
     }
   ];
 
@@ -48,9 +45,9 @@ const PictureCard = () => {
               <img 
                 src={feature.image} 
                 alt={feature.title} 
-                className="w-20 h-20 rounded-full object-contain p-3 bg-slate-200 mx-auto" // Added mx-auto for centering
+                className="w-20 h-20 rounded-full object-contain p-3 bg-slate-200 mx-auto"
               />
-              <p className="text-xl font-semibold">{feature.title} {feature.subtitle}</p>
+              <p className="text-2xl font-semibold">{feature.title}</p> {/* Increased text size */}
               <p className="text-sm text-black/80">{feature.description}</p>
             </motion.div>
           ))}
